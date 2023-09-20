@@ -53,27 +53,7 @@ export const householdPageConfigs: HouseholdPageAllCountriesConfig = {
                     ],
                 },
                 grossMonthlyEarnings: true,
-            },
-            sectionHousehold: {
-                housingType: {
-                    options: [
-                        HousingType.OWN_HOUSE,
-                        HousingType.CONDO,
-                        HousingType.RENTED_ACCOMMODATION,
-                        HousingType.OTHER,
-                    ],
-                },
-                numberOfAdults: {
-                    defaultValue: 1,
-                    min: 1,
-                    max: 10,
-                },
-                numberOfChildren: {
-                    defaultValue: 0,
-                    min: 0,
-                    max: 10,
-                },
-            },
+            }
         ]
     },
 }
